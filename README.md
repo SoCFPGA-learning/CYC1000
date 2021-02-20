@@ -35,4 +35,4 @@ Se necesita la colaboración para poder incrementar los recursos disponibles par
 
 * Buy at Arrow https://www.arrow.com/en/products/cyc1000/arrow-development-tools
 * Buy at Trenz electronic https://shop.trenz-electronic.de/en/TEI0003-02-CYC1000-with-Cyclone-10-FPGA-8-MByte-SDRAM
-* Telegram Group at https://te.me/CYC1000
+* Telegram Group at https://t.me/CYC1000
