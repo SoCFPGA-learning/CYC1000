@@ -28,7 +28,7 @@ Se necesita la [colaboración](https://github.com/SoCFPGA-learning/General/tree/
 
 ### Other media
 
-* [Telegrom group](https://t.me/Sockit_FPGA) 
+* [Telegrom group](https://t.me/CYC1000) 
 * [Discord channel](https://discord.gg/YDdmtwh) 
 
 ### **Useful sites with info about the CYC1000 board:**
