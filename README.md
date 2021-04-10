@@ -5,16 +5,12 @@ Features: Cyclone10 LP 25kLE, Arrow USB Programmer2, power supply, Flash, SDRAM,
 
 The folders contain the following information:
 
+* [**ATLAS**](./ATLAS): PROYECTO ATLAS (PLACA BASE MULTICORE CYC1000 + RASPBERRY PI)
 * **Tutorials**: Basic tutorials.
-
 * **Projects**: Contains different interesting projects
-
 * **Beta Projects**: Work in progress projects
-
 * **Templates**: Ready made templates for your projects
-
 * **Documents**: Various useful documentation (schematics, images, ...)
-
 * **Others**: Some other content 
 
 
@@ -28,7 +24,7 @@ Se necesita la [colaboración](https://github.com/SoCFPGA-learning/General/tree/
 
 ### Other media
 
-* [Telegrom group](https://t.me/CYC1000) 
+* [Telegram group](https://t.me/CYC1000) 
 * [Discord channel](https://discord.gg/YDdmtwh) 
 
 ### **Useful sites with info about the CYC1000 board:**
