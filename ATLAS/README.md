@@ -29,7 +29,7 @@ Otras conexiones opcionales:
 #### Configuración inicial de la SBC raspberry Pi
 
 * Descarga raspberry Pi OS Lite https://www.raspberrypi.org/software/operating-systems/ y grábalo en una tarjeta micro SD
-* Arranca  la SBC con tarjeta micro SD del paso anterior en el zócalo (11) (no es necesario tenerla conectada aún a la placa ATLAS) con el video y teclado conectados y con un cargador de adecuado amperaje (>2A). 
+* Arranca  la SBC con la tarjeta micro SD del paso anterior en el zócalo (11) (no es necesario tenerla conectada aún a la placa ATLAS) con el video y teclado conectados y con un cargador de adecuado amperaje (>2A). 
   * Para acceder al terminal Linux de la rPI el usuario / contraseña por defecto son: pi / raspberry
 * Configuración de la raspberry Pi con el comando `sudo raspi-config` (la configuración del WiFi es opcional y puedes encontrar mas información [aquí](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md)): 
   * 5 Localization Options
@@ -40,7 +40,7 @@ Otras conexiones opcionales:
 
 #### Instalación del cargador de cores programRBF en la FPGA 
 
-(vamos a trabajar desde el directorio /home/pi que es el que aparece por defecto al arrancar el terminal Linux con el usuario "pi")
+Nota: vamos a trabajar desde el directorio /home/pi que es el que aparece por defecto al arrancar el terminal Linux con el usuario "pi".
 
 * Instala la librería WiringPi:
 
