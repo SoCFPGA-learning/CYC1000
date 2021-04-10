@@ -16,22 +16,21 @@ El proyecto está empezando y se irán simplificando los pasos en el futuro de f
 
 #### Ensamblaje de las placas:
 
-<img src="ensamblaje.png" alt="ensamblaje" style="zoom:80%;" />
+<img src="ATLAS-ensamble.png" alt="ensamblaje" style="zoom:80%;" />
 
-Leyenda: (1) Placa Atlas, (2) FPGA CYC1000, (3) SBC Raspberry Pi, (4) Alimentación general, (5) DB9 para joystick, (6) teclado PS2, (7) ratón PS2, (8) salida video HDMI, (9) jack 3.5 audio, (10) tarjeta microSD
+Leyenda: (1) Placa Atlas, (2) FPGA CYC1000, (3) SBC Raspberry Pi, (4) Alimentación general, (5) DB9 para joystick, (6) teclado PS2, (7) ratón PS2, (8) salida video HDMI, (9) jack 3.5 audio, (10) tarjeta microSD ATLAS, (11) tarjeta microSD rPi
 
 Otras conexiones opcionales: 
 
-(11) USB Blaster para cargar cores directamente a la CYC1000. No es necesario si la carga se hace a través de la SBC rPi.
-
 (12) Conexiones de vídeo y teclado a la SBC rPi para acceder al terminal de linux . No es necesario si has configurado acceso ssh por WiFi.
+
+(13) USB Blaster para cargar cores directamente a la CYC1000. No es necesario si la carga se hace a través de la SBC rPi.
 
 #### Configuración inicial de la SBC raspberry Pi
 
 * Descarga raspberry Pi OS Lite https://www.raspberrypi.org/software/operating-systems/ y grábalo en una tarjeta micro SD
-* Arranca  la SBC con tarjeta micro SD del paso anterior  (no es necesario tenerla conectada aún a la placa ATLAS) con el video y teclado conectados y con un cargador de adecuado amperaje (>2A). 
+* Arranca  la SBC con tarjeta micro SD del paso anterior en el zócalo (11) (no es necesario tenerla conectada aún a la placa ATLAS) con el video y teclado conectados y con un cargador de adecuado amperaje (>2A). 
   * Para acceder al terminal Linux de la rPI el usuario / contraseña por defecto son: pi / raspberry
-  * La tarjeta micro SD con raspberry Pi OS Lite debe estar en el zócalo uSD de la propia raspberry.
 * Configuración de la raspberry Pi con el comando `sudo raspi-config` (la configuración del WiFi es opcional y puedes encontrar mas información [aquí](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md)): 
   * 5 Localization Options
     * L4 WLAN country 
