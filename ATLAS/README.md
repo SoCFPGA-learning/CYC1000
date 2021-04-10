@@ -16,13 +16,13 @@ El proyecto está empezando y se irán simplificando los pasos en el futuro de f
 
 #### Ensamblaje de las placas:
 
-![ensamblaje](ensamblaje.png)
+<img src="ensamblaje.png" alt="ensamblaje" style="zoom:80%;" />
 
 Leyenda: (1) Placa Atlas, (2) FPGA CYC1000, (3) SBC Raspberry Pi, (4) Alimentación general, (5) DB9 para joystick, (6) teclado PS2, (7) ratón PS2, (8) salida video HDMI, (9) jack 3.5 audio, (10) tarjeta microSD
 
 Otras conexiones opcionales: 
 
-(11) USB Blaster para cargar cores directamente la CYC1000. No es necesario si la carga se hace a través de la SBC rPi.
+(11) USB Blaster para cargar cores directamente a la CYC1000. No es necesario si la carga se hace a través de la SBC rPi.
 
 (12) Conexiones de vídeo y teclado a la SBC rPi para acceder al terminal de linux . No es necesario si has configurado acceso ssh por WiFi.
 
