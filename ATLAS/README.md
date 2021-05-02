@@ -8,6 +8,10 @@ Inicialmente la placa adaptadora ATLAS es un proyecto para la placa CYC1000 y la
 
 Mas info y fotos en este [hilo](http://www.forofpga.es/viewtopic.php?f=28&t=376&p=1548#p1548), en su propio [foro](http://www.forofpga.es/viewforum.php?f=240&sid=bd3e070f65599ff111ad0494e4459535) de foroFPGA, en [telegram](https://t.me/CYC1000) o [discord](https://discord.gg/YDdmtwh).
 
+### Cores disponibles
+
+* http://www.forofpga.es/viewforum.php?f=241
+
 ### Guía rápida
 
 Si ya tienes tu CYC1000, una raspberry Pi, y la placa ATLAS (la puedes conseguir en el grupo de [telegram](https://t.me/CYC1000)), sigue esta guía rápida para empezar a trastear. 
@@ -60,13 +64,13 @@ Nota: vamos a trabajar desde el directorio /home/pi que es el que aparece por de
 
 * Copia los cores con extensión .rbf a la tarjeta SD, en la partición "rootfs", directorio ""/home/pi".
 
-* Carga el core con el ejecutable programrbf (el ejemplo carga el [msx_multicore2.rbf](./cores/msx_multicore2.rbf) de MSX1):
+* Carga el core con el ejecutable programrbf (el ejemplo carga el [msx_atlas.rbf](./cores/msx_atlas.rbf) de MSX1):
 
   ```
-  ./programrbf msx_multicore2.rbf 17 22 4 27
+  ./programrbf msx_atlas.rbf 17 22 4 27
   ```
   
-  Nota: El core [msx_multicore2.rbf](./cores/msx_multicore2.rbf) de MSX1 requiere soldar un reloj adicional de 50 MHz, y tener una tarjeta micro SD con [este contenido](https://mega.nz/file/20pi1aiY#FwhOZryEUyuyU1gEUCVma1ndn-2BqtvH7RUx-qwgqs0) insertada en el zócalo micro SD (10) de la placa ATLAS.
+  Nota: El core de MSX1 requiere soldar un reloj adicional de 50 MHz, y tener una tarjeta micro SD con [este contenido](https://mega.nz/file/20pi1aiY#FwhOZryEUyuyU1gEUCVma1ndn-2BqtvH7RUx-qwgqs0) insertada en el zócalo micro SD (10) de la placa ATLAS.
 
 #### Script para cargar un core automáticamente al arrancar la SBC
 
@@ -90,7 +94,7 @@ Dónde conseguir el reloj:
 
 Listado de cores que van a 50 MHz:
 
-* MSX1
+* MSX1 
 
 ### **Colaboraciones:**
 
@@ -98,5 +102,7 @@ Se necesita la [colaboración](https://github.com/SoCFPGA-learning/General/tree/
 
 ### Comunidad:
 
-* [Telegram group](https://t.me/CYC1000) 
+* [Cyc1000 Atlas telegram group](https://t.me/CYC1000) (Spanish)
+* [Atlas FPGA international telegram group](https://t.me/ATLASFPGA) (English)
 * [Discord channel](https://discord.gg/YDdmtwh) 
+
